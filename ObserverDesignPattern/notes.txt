@@ -1,0 +1,15 @@
+The Observer Pattern is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any state changes in another object.
+
+In your case:
+
+Subject / Observable: IphoneObservableImpl
+
+Observers / Subscribers: EmailAlertObserverImpl, MobileAlertObserverImpl
+
+Concept	Implementation Part:-
+
+Subject  -> 	IphoneObservableImpl
+Observer  ->	EmailAlertObserverImpl, Mobile...
+Registration  ->	.add() method
+Notification Logic  ->	.notifySubscribers()
+Trigger Condition  ->	Inside setStockCount()

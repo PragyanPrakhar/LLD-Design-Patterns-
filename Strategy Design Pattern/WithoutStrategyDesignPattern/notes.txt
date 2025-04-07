@@ -1,0 +1,2 @@
+In this we are duplicating the code , like the child classes i.e sports vehicle and the off road needs  the same drive capabilities.
+but we are typing the same code in these two classes two times.
