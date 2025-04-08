@@ -1,4 +1,4 @@
-package DecoratorDesignPattern;
+package DecoratorDesignPattern.Pizza_Decoration;
 
 public class Farmhouse extends BasePizza {
     @Override

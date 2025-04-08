@@ -1,4 +1,4 @@
-package DecoratorDesignPattern;
+package DecoratorDesignPattern.Pizza_Decoration;
 
 public class Mushroom extends TopingDecorator {
     BasePizza basePizza;

@@ -1,4 +1,4 @@
-package DecoratorDesignPattern;
+package DecoratorDesignPattern.Pizza_Decoration;
 
 public class ExtraCheese extends TopingDecorator {
     BasePizza basePizza;

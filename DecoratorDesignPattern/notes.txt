@@ -1,0 +1,22 @@
+The Decorator Pattern lets you dynamically add new behavior or responsibilities to objects without modifying their existing code.
+
+It’s like wrapping the original object inside a new object that adds something extra.
+
+-> 🎯 When to Use It
+You want to add behavior dynamically at runtime.
+
+You want to follow Open/Closed Principle: open for extension but closed for modification.
+
+Inheritance isn’t flexible enough because it’s static and can’t be changed at runtime.
+
+🔥 Advantages:
+Follows Open/Closed Principle.
+
+No need to subclass every combination.
+
+Flexible composition at runtime.
+
+🚫 Disadvantages:
+Lots of small classes.
+
+Can be complex when deeply nested.

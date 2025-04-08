@@ -1,4 +1,4 @@
-package DecoratorDesignPattern;
+package DecoratorDesignPattern.Pizza_Decoration;
 
 public class Margherita extends BasePizza {
     @Override
