@@ -2,7 +2,7 @@ package LLD_TIC_TAC_TOE.models;
 public class Player {
     String name;
     public PlayingPiece playingPiece;
-    Player(String name, PlayingPiece playingPiece) {
+    public Player(String name, PlayingPiece playingPiece) {
         this.name = name;
         this.playingPiece = playingPiece;
     }
